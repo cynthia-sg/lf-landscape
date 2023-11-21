@@ -117,13 +117,37 @@ presets:
 big_picture:
   main:
     tab_index: -1
-    url: landscape
-    name: Landscape
-    title: Linux Foundation Landscape
-    fullscreen_header: See the interactive landscape at lf-landscape.netlify.app
+    url: members
+    name: Members
+    title: Linux Foundation Members
+    fullscreen_header: Become a LF member at www.linuxfoundation.org/membership
     elements:
       - type: VerticalCategory
-        category: Vertical Specific
+        category: LF Members
+        cols: 30
+        width: 1200
+        height: 1200
+        top: 0
+        left: 0
+        color: rgb(78,171,207)
+        fit_height: true
+  second:
+    tab_index: 1
+    url: projects
+    name: Projects
+    title: LF Hosted Projects
+    elements:
+      - type: VerticalCategory
+        category: Cloud Native Computing Foundation (CNCF)
+        cols: 6
+        width: 240
+        height: 300
+        top: 10
+        left: 0
+        color: rgb(78,171,207)
+        fit_height: true
+      - type: VerticalCategory
+        category: Open Mainframe Project (OMP)
         cols: 6
         width: 240
         height: 300
@@ -131,111 +155,95 @@ big_picture:
         left: 900
         color: rgb(78,171,207)
         fit_height: true
-      - type: HorizontalCategory
-        category: Cloud Computing
-        rows: 4
-        width: 880
-        height: 170
-        top: 10
-        left: 0
-        color: rgb(104,145,145)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Development and Tooling
-        rows: 4
-        width: 600
-        height: 190
-        top: 200
-        left: 0
-        color: rgb(108,135,75)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Data, Analytics, and AI
-        rows: 3
-        width: 880
-        height: 140
-        top: 420
-        left: 0
-        color: rgb(130,207,231)
-        fit_width: false
-      - type: VerticalCategory
-        category: Other
-        cols: 6
-        width: 240
-        height: 140
-        top: 430
-        left: 900
-        color: rgb(130,207,231)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Infrastructure
-        rows: 4
-        width: 1140
-        height: 180
-        top: 600
-        left: 0
-        color: rgb(130,207,231)
-        fit_width: false
-      - type: VerticalCategory
-        category: Standards
-        cols: 6
-        width: 240
-        height: 100
-        top: 320
-        left: 900
-        color: rgb(130,207,231)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Community and Compliance
-        rows: 4
-        width: 270
-        height: 190
-        top: 200
-        left: 610
-        color: rgb(130,207,231)
-        fit_width: false
+    category: Projects
   third:
-    tab_index: 1
-    url: members
-    name: Members
-    title: LF Members
-    fullscreen_header: Become a LF member at www.linuxfoundation.org/membership
+    tab_index: 2
+    url: industries
+    name: Industries
+    title: LF Projects by Industry
     fullscreen_hide_grey_logos: true
     elements:
-      - type: VerticalCategory
-        category: Platinum
-        width: 750
-        height: 240
-        top: 0
+      - type: Vertical Category
+        category: Cross-Industry
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
         left: 0
-        color: '#e5e4e2'
-        fit_width: true
-      - type: VerticalCategory
-        category: Gold
-        width: 1180
-        height: 240
-        top: 250
-        left: 0
-        color: '#d4af37'
-        fit_width: true
-      - type: VerticalCategory
-        category: Silver
-        cols: 30
-        width: 1180
-        height: 1300
-        top: 500
-        left: 0
-        color: '#C0C0C0'
-        fit_width: true
-      - type: VerticalCategory
-        category: Associate
-        cols: 30
-        width: 1180
-        height: 500
-        top: 1810
-        left: 0
-        color: rgb(0,0,0)
+        color: rgb(78,171,207)
         fit_height: true
+      - type: Vertical Category
+        category: Automotive
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Telecommunications
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Motion Pictures
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Energy & Climate
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Manufacturing
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Financials
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Health Care
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Materials
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
+      - type: Vertical Category
+        category: Information Technology
+        cols: 6
+        width: 600
+        height: 300
+        top: 200
+        left: 0
+        color: rgb(78,171,207)
       - type: LandscapeInfo
         width: 365
         height: 160
@@ -271,7 +279,7 @@ big_picture:
             width: 109
             right: 5
             top: 80
-    category: LF Members
+    category: Industry
 test:
   header: LF Interactive Landscape
   section: LF Members
